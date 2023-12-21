@@ -3,7 +3,7 @@ import { ClipboardList, Package, Plane } from "lucide-react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center space-y-14 p-10">
+    <div className="flex flex-col items-center space-y-14 py-20 px-10">
       <h3 className="font-bold text-4xl text-center">
         Uniform Delivery Services
       </h3>
@@ -20,7 +20,7 @@ const Services = () => {
         <Card className="shadow-xl rounded-3xl">
           <CardHeader className="flex flex-col space-y-8 justify-center items-center">
             <Plane className="h-20 w-20" />
-            <p className="font-bold text-4xl text-center leading-relaxed">
+            <p className="font-bold text-4xl w-full lg:w-3/4 text-center leading-relaxed">
               International Shipping
             </p>
           </CardHeader>
