@@ -3,7 +3,7 @@ import { Bike, Star, Webhook } from "lucide-react";
 const Features = () => {
   return (
     <div className="flex flex-col items-center w-full space-y-12 px-10 py-20">
-      <h2 className="font-semibold text-primary text-2xl lg:text-start text-center">
+      <h2 className="font-semibold text-primary text-2xl lg:text-start text-center tracking-wider">
         Making Delivery <span className="uppercase text-[#A4C5D0]">easy</span>{" "}
         for you
       </h2>
