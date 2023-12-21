@@ -4,8 +4,10 @@ import { ClipboardList, Package, Plane } from "lucide-react";
 const Services = () => {
   return (
     <div className="flex flex-col items-center space-y-14 p-10">
-      <h3 className="font-bold text-4xl">Uniform Delivery Services</h3>
-      <div className="flex space-x-12">
+      <h3 className="font-bold text-4xl text-center">
+        Uniform Delivery Services
+      </h3>
+      <div className="flex flex-col lg:flex-row lg:space-x-12 lg:space-y-0 space-y-12">
         <Card className="shadow-xl rounded-3xl h-fit py-4">
           <CardHeader className="flex flex-col space-y-8 justify-center items-center">
             <Package className="h-20 w-20" />
@@ -18,7 +20,7 @@ const Services = () => {
         <Card className="shadow-xl rounded-3xl">
           <CardHeader className="flex flex-col space-y-8 justify-center items-center">
             <Plane className="h-20 w-20" />
-            <p className="font-bold text-4xl w-1/2 text-center leading-relaxed">
+            <p className="font-bold text-4xl text-center leading-relaxed">
               International Shipping
             </p>
           </CardHeader>

@@ -2,16 +2,18 @@ import { Bike, Star, Webhook } from "lucide-react";
 
 const Features = () => {
   return (
-    <div className="flex flex-col items-center w-full space-y-8 p-10">
-      <h2 className="font-semibold text-primary">
+    <div className="flex flex-col items-center w-full space-y-12 p-10">
+      <h2 className="font-semibold text-primary text-2xl lg:text-start text-center">
         Making Delivery <span className="uppercase text-[#A4C5D0]">easy</span>{" "}
         for you
       </h2>
-      <div className="flex space-x-8 justify-center">
-        <div className="flex flex-col space-y-8 max-w-lg">
-          <div className="flex flex-col space-y-4 w-fit">
+      <div className="flex flex-col lg:flex-row lg:space-x-8 lg:space-y-0 space-y-12 justify-center">
+        <div className="flex flex-col lg:items-start items-center space-y-8 max-w-lg">
+          <div className="flex flex-col lg:items-start items-center space-y-4">
             <Star color="#A4C5D0" className="h-10 w-10" />
-            <p className="font-extrabold text-xl">First Mover Advantage</p>
+            <p className="font-extrabold text-xl lg:text-start text-center">
+              First Mover Advantage
+            </p>
           </div>
           <p className="font-medium max-w-md">
             Providing a distinct first-mover advantage in underdeveloped markets
@@ -19,10 +21,12 @@ const Features = () => {
             in these untapped regions
           </p>
         </div>
-        <div className="flex flex-col space-y-8 max-w-lg">
-          <div className="flex flex-col space-y-4">
+        <div className="flex flex-col lg:items-start items-center space-y-8 max-w-lg">
+          <div className="flex flex-col lg:items-start items-center space-y-4">
             <Bike color="#A4C5D0" className="h-10 w-10" />
-            <p className="font-extrabold text-xl">First Mover Advantage</p>
+            <p className="font-extrabold text-xl lg:text-start text-center">
+              First Mover Advantage
+            </p>
           </div>
           <p className="font-medium max-w-md">
             Offers a versatile fleet that caters to a wide array of
@@ -30,10 +34,12 @@ const Features = () => {
             the diverse requirements of our valued clients
           </p>
         </div>
-        <div className="flex flex-col space-y-8 max-w-lg">
-          <div className="flex flex-col space-y-4">
+        <div className="flex flex-col lg:items-start items-center space-y-8 max-w-lg">
+          <div className="flex flex-col lg:items-start items-center space-y-4">
             <Webhook color="#A4C5D0" className="h-10 w-10" />
-            <p className="font-extrabold text-xl">First Mover Advantage</p>
+            <p className="font-extrabold text-xl lg:text-start text-center">
+              First Mover Advantage
+            </p>
           </div>
           <p className="font-medium max-w-md">
             Seamlessly integrating cutting-edge technology to ensure the highest

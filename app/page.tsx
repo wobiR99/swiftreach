@@ -1,4 +1,5 @@
 import Features from "@/components/features";
+import Footer from "@/components/footer";
 import Services from "@/components/services";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="h-full w-full">
       <Services />
       <Features />
+      <Footer />
     </div>
   );
 }
